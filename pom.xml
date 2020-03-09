@@ -7,7 +7,7 @@
 	<version>0.0.5</version>
 	<name>my-app-normal</name>
 	<url>http://maven.apache.org</url>
-
+<!-- to run junit packages since the test classes had those packages-->
 	<dependencies>
 		<dependency>
 		    <groupId>org.apache.poi</groupId>
