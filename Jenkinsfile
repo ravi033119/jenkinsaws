@@ -6,7 +6,7 @@ pipeline {
     stages {
         	stage('Checkout Stage'){
            		steps{
-                  		git url: 'https://github.com/shifali0102/jenkinsaws.git'
+                  		git url: 'https://github.com/ravi033119/jenkinsaws.git'
 				sh 'mvn --version'
               			sh 'mvn clean'
 	       			}
